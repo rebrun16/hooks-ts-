@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UseStateComponents from "./UseStateComponents";
+import UseEffectComponent from "./UseEffectComponent";
+import UsecontextComponent from "./UsecontextComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>useState</h1>
+      <UseStateComponents/>
+      <h1>useEffect</h1>
+      <UseEffectComponent/>
+      <h1>useContext</h1>
+      <UsecontextComponent/>
+      <h1>UseContextComponent</h1>
+      <UsecontextComponent/>
     </div>
   );
 }
